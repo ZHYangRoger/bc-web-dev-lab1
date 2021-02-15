@@ -3,87 +3,118 @@
   <head>
     <title>My Portfolio</title>
     <meta name="author" content="Zihui Yang">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto+Mono&display=swap" rel="stylesheet">
   </head>  
 
-
-  <body>
+  <body class="container">
     <nav>
-        <ul>
+        <ul class="flex-container">
             <li><a href="#about">About</a></li>
             <li><a href="#news">News</a></li>
             <li><a href="#projects">Projects</a></li>
         </ul>
     </nav>
-    <h1>My Portfolio</h1>
+    <!-- <h1>My Portfolio</h1> -->
 
-    <section id="about">
+    <section id="about" class="padding-top">
         <h2>Zihui Yang</h2>
-        <img src="assets/WechatIMG4.jpeg" alt="My Picture!" style="width:300px;height:405px">
-        <p>
-            <b>Computer Science & Psychology Undergraduate at Boston College</b><br/>
-            yangahq@bc.edu<br/>
-            140 Commonwealth Ave, Chestnut Hill, MA 02467<br/>
-            <a href="https://www.instagram.com/roger_yzh/">Instagram</a>|
-            <a href="https://www.linkedin.com/in/子晖-杨-926056192/">Linkedin</a>|
-            <a href="https://github.com/ZHYangRoger">Github</a>
+        <div class="row">
+            <div class="col-8">
+                <img src="assets/WechatIMG4.jpeg" class="image_container1" alt="My Picture!">
+            </div>
+        <div class="col-4">
             <p>
-            Zihui Yang is a Junior at Boston College who studies<br/>
-            Computer Science and Psychology. His main research<br/>
-            interests are Social Psychology, Psycholinguistics, and<br/>
-            Artificial Intelligence. He is a peer supporter at Lean<br/>
-            On Me Boston College, a mentor at the Psychology<br/>
-            Mentorship Program, and a social media ececutive at<br/>
-            the Chinese Scholars and Students Association at Boston<br/>
-            College.
+                <b>Computer Science & Psychology Undergraduate at Boston College</b><br/>
+                yangahq@bc.edu<br/>
+                140 Commonwealth Ave, Chestnut Hill, MA 02467<br/>
+                <a href="https://www.instagram.com/roger_yzh/">Instagram</a>|
+                <a href="https://www.linkedin.com/in/子晖-杨-926056192/">Linkedin</a>|
+                <a href="https://github.com/ZHYangRoger">Github</a>
+                <p>
+                Zihui Yang is a Junior at Boston College who studies
+                Computer Science and Psychology. His main research
+                interests are Social Psychology, Psycholinguistics, and
+                Artificial Intelligence. He is a peer supporter at Lean
+                On Me Boston College, a mentor at the Psychology
+                Mentorship Program, and a social media ececutive at
+                the Chinese Scholars and Students Association at Boston
+                College.
+                </p>
             </p>
-        </p>
+        </div>
     </section>
     <br/><br/>
     
-    <section id="news">
+    <section id="news" class="padding-top">
         <h2>News</h2>
-        <p>
-        <b>Taking part in the BC Endeavor Program</b><br/>
-        Jan 13, 2021 - Jan 15, 2021
-        </p>
-        <p>
-        <b>New Year party!!</b><br/>
-        Jan 1, 2021<br/>
-        <img src="assets/WechatIMG6.jpeg" alt="food" style="width:220px;height:150px">
-        </p>
-        <p>
-        <b>Trip to Cape Cod</b><br/>
-        Nov 28, 2020<br/>
-        <img src="assets/WechatIMG7.jpeg" alt="food" style="width:220px;height:150px">
-        </p>
-        <p>
-        <b>Becoming a mentor at the BC Psychology Mentorship Program</b><br/>
-        Oct 1, 2020
-        </p>
+        <div class="row">
+            <div class="col-8">
+                Taking part in the BC Endeavor Program<br/>
+                New Year party!!<br/>
+                Trip to Cape Cod<br/>
+                Becoming a mentor at the BC Psychology Mentorship Program
+        </div>
+        <div class="col-4">
+            Jan 13, 2021 - Jan 15, 2021<br/>
+            Jan 1, 2021<br/>
+            Nov 28, 2020<br/>
+            Oct 1, 2020
+        </div>
+        </div>
     </section>
     <br/><br/>
 
-    <section id="projects">
+    <section id="projects" class="padding-top">
         <h2>Projects</h2>
-        <p>
-            <a href="bilibili_video.html"><b>Guitar Performance Video with the beautiful sight of Chandler Pond, Brighton, MA</b></a><br/>
-            Junze Shen, Zihui Yang, Wenwei Su<br/>
-            Summer 2020<br/>
-            <img src="assets/WechatIMG8.jpeg" alt="Junze playing guitar" style="width:280px;height:150px">
-        </p>
-        <p>
-            <a href="summa_project.html"><b>A Summa Philosophy Project on Sexual Desire</b></a><br/>
-            Zihui Yang<br/>
-            May, 2020<br/>
-            <img src="assets/1*CQxOLdQADytel3OyRlGcBw.png" alt="Thomas Aquinas" style="width:280px;height:150px">
-        </p>
-        <p>
-            <a href="psychiatric_disease_project.html"><b>Mental Disorder and the Criminal-justice System</b></a><br/>
-            Zihui Yang<br/>
-            January, 2020<br/>
-            <img src="assets/200416-western-state-hospital-al-0817_e39f56031f9146e994d8e24f4d71cfa1.jpg" alt="a psychiatric hospital" style="width:290px;height:180px">
-        </p>
+        <section>
+            <div class="row">
+                <div class="col-8">
+                    <a href="bilibili_video.html"><b>Guitar Performance Video with the beautiful sight of Chandler Pond, Brighton, MA</b></a><br/>
+                    <img src="assets/WechatIMG8.jpeg" class="image_container2" alt="Junze playing guitar"><br/><br/>
+                </div>
+                <div class="col-4">
+                    <span class="tag tag_personal">personal</span>
+                    <span class="tag tag_subject">music</span><br/>
+                    Junze Shen, Zihui Yang, Wenwei Su<br/>
+                    Summer 2020
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-8">
+                    <a href="summa_project.html"><b>A Summa Philosophy Project on Sexual Desire</b></a><br/>
+                    <img src="assets/1*CQxOLdQADytel3OyRlGcBw.png" class="image_container2" alt="Thomas Aquinas"><br/><br/>
+                </div>
+                <div class="col-4">
+                    <span class="tag tag_course">course work</span>
+                    <span class="tag tag_subject">Philosophy</span><br/>
+                    Zihui Yang<br/>
+                    May, 2020
+                </div>
+            </div>
+        </section>
+        <section>
+
+        </section>
+        <div class="row">
+                <div class="col-8">
+                    <a href="psychiatric_disease_project.html"><b>Mental Disorder and the Criminal-justice System</b></a><br/>
+                    <img src="assets/200416-western-state-hospital-al-0817_e39f56031f9146e994d8e24f4d71cfa1.jpg" class="image_container2" alt="a psychiatric hospital">
+                </div>
+                <div class="col-4">
+                    <span class="tag tag_course">course work</span>
+                    <span class="tag tag_subject">Psychology</span>
+                    <span class="tag tag_subject">Philosophy</span><br/>
+                    Zihui Yang<br/>
+                    January, 2020<br/>
+                </div>                             
+        </div>
     </section>
-  </body>
+</body>
 
 </html>
