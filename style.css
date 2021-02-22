@@ -33,6 +33,10 @@ a:hover{
     color:rgb(99, 84, 84);
 }
 
+ul{
+    list-style-type: none;
+}
+
 section.padding-top{
     padding-top: 100px
 }
@@ -97,6 +101,13 @@ section.padding-top{
         border-radius: 10px;
         width: 400px;
         height: 220px;
+        object-fit: cover;
+    }
+
+    .image_container3{
+        border-radius: 10px;
+        width: 560px;
+        height: 290px;
         object-fit: cover;
     }
 }

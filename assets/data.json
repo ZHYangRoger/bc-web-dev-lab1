@@ -1,0 +1,138 @@
+{
+    "about": {
+        "name": "Zihui Yang",
+        "title": "Computer Science & Psychology Undergraduate at Boston College",
+        "photo": "assets/WechatIMG4 2.png",
+        "email": "yangahq@bc.edu",
+        "address": "140 Commonwealth Ave, Chestnut Hill, MA 02467",
+        "links":[
+            {
+                "id": "instagram",
+                "icon": "<i class=\"fab fa-instagram\"></i>",
+                "link": "https://www.instagram.com/roger_yzh/"
+            },
+
+            {
+                "id": "linkedin",
+                "icon": "<i class=\"fab fa-linkedin-in\"></i>",
+                "link": "https://www.linkedin.com/in/子晖-杨-926056192/"
+            },
+
+            {
+                "id": "github",
+                "icon": "<i class=\"fab fa-github\"></i>",
+                "link": "https://github.com/ZHYangRoger"
+            }
+        ],
+        "description": "Zihui Yang is a Junior at Boston College who studies Computer Science and Psychology. His main research interests are Social Psychology, Psycholinguistics, and Artificial Intelligence. He is a peer supporter at Lean On Me Boston College, a mentor at the Psychology Mentorship Program, and a social media ececutive at the Chinese Scholars and Students Association at Boston College."
+    },
+    "news": [
+        {
+            "title": "Taking part in the BC Endeavor Program",
+            "date": "Jan 13, 2021 - Jan 15, 2021"
+        },
+
+        {
+            "title": "New Year party!!",
+            "date": "Jan 1, 2021"
+        },
+
+        {
+            "title": "Trip to Cape Cod",
+            "date": "Nov 28, 2020"
+        },
+
+        {
+            "title": "Becoming a mentor at the BC Psychology Mentorship Program",
+            "date": "Oct 1, 2020"
+        }
+    ],
+    "projects":[
+        {
+            "id": "guitar",
+            "title":"Guitar Performance Video with the beautiful sight of Chandler Pond, Brighton, MA",
+            "image":"assets/WechatIMG8.jpeg",
+            "tags":[
+                {
+                    "id": "personal",
+                    "name": "personal"
+                },
+
+                {
+                    "id": "subject",
+                    "name": "music"
+                }
+            ],
+            "authors": "Junze Shen, Zihui Yang, Wenwei Su",
+            "date": "Summer 2020",
+            "materials": [
+                { 
+                "label": "<i class=\"fas fa-video\"> Video</i>",
+                "path": "https://www.bilibili.com/video/BV1354y1e7mQ"
+                }
+            ],
+            "texts":
+                "<br/><b>Casts: </b>Guitar player: Junze Shen; Photographers: Zihui Yang and Wenwei Su<br/><b>Song Performed: </b>\"Grand Escape\" by Radwimps<br/><b>Rewritten by: </b>Chuxiao Yang<br/><b>Location: </b>Chandler Pond, Brighton, MA"
+        },
+
+        {
+            "id": "summa",
+            "title":"A Summa Philosophy Project on Sexual Desire",
+            "image":"assets/1*CQxOLdQADytel3OyRlGcBw.png",
+            "tags":[
+                {
+                    "id": "course work",
+                    "name": "course work"
+                },
+
+                {
+                    "id": "subject",
+                    "name": "Philosophy"
+                }
+            ],
+            "authors": "Zihui Yang",
+            "date": "May, 2020",
+            "materials": [
+                { 
+                "label": "<i class=\"far fa-file-alt\"><b> Paper</b></i>",
+                "path": "assets/phil of person final project summa.pdf"
+                }
+            ],
+            "texts":
+            "<h3>What is Summa Theologiae?</h3><p>From Wikipedia: \"The Summa Theologiae, as the well-known work of Thomas Aquinas, is a compendium of all of the main theological teachings of the Catholic Church, intended to be an instructional guide for Theology students.\"</p><p>Structure for a Summa project: A general question, an article (topic), two or three objections to the author's own statement, \"on the contrary\" which cites words or works of an expert in this area to support the author's own opinion, \"I answer that\" part which stats the author's own opinion, and the author's reply to all the previously stated objections.</p><h3>About This Project</h3><p>There are two articles: one is \"Is sexual desire moral?\" and the other is \"Is sexual activity moral?\". I will talk abouttwo objections for each article and state my own idea.</p>"
+        },
+
+        {
+            "id": "disorder",
+            "title":"Mental Disorder and the Criminal-justice System",
+            "image":"assets/200416-western-state-hospital-al-0817_e39f56031f9146e994d8e24f4d71cfa1.jpg",
+            "tags":[
+                {
+                    "id": "course work",
+                    "name": "course work"
+                },
+
+                {
+                    "id": "subject",
+                    "name": "Psychology"
+                },
+
+                {
+                    "id": "subject",
+                    "name": "Philosophy"
+                }
+            ],
+            "authors": "Zihui Yang",
+            "date": "January, 2020",
+            "materials": [
+                { 
+                "label": "<i class=\"far fa-file-alt\"><b> Paper</b></i>",
+                "path": "assets/pulse research paper-2.pdf"
+                }
+            ],
+            "texts":
+            "<h3>Issue Discussed</h3><p>The cause and mechanism of a psychiatric disease , also known as a mental disorder, is far more complex than what most people think. The case for each specific patient, moreover, is also highly disparate from one another. It is even a mystery that whether a psychiatric professional can really examine if one is faking to be mentally ill while in fact he is healthy. How does such a highly underdeveloped area of study involved in the criminal-justice system of the United States? Should people who are mentally ill be exculpated? Even so, are psychiatric criminals really treated this way nowadays?</p>"
+        }
+    ]
+
+}
